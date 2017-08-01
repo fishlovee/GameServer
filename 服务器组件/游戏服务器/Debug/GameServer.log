@@ -1,0 +1,54 @@
+﻿生成启动时间为 2016/7/5 20:55:41。
+     1>项目“D:\闲来服务器\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\GameServer.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameServer.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt AttemperEngineSink.cpp DataBaseEngineSink.cpp DBCorrespondManager.cpp DistributeManager.cpp GameServer.cpp GameServerDlg.cpp InitParameter.cpp SensitiveWordsFilter.cpp ServerListManager.cpp ServiceUnits.cpp StockManager.cpp TableFrame.cpp
+         TableFrame.cpp
+         StockManager.cpp
+         ServiceUnits.cpp
+         ServerListManager.cpp
+         SensitiveWordsFilter.cpp
+         InitParameter.cpp
+         GameServerDlg.cpp
+         GameServer.cpp
+         DistributeManager.cpp
+         DBCorrespondManager.cpp
+         DataBaseEngineSink.cpp
+         AttemperEngineSink.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\GameServer.res" GameServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/GameServer.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/GameServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Debug/Ansi/GameServer.lib" /MACHINE:X86 /SAFESEH Debug\GameServer.res
+         Debug\AttemperEngineSink.obj
+         Debug\DataBaseEngineSink.obj
+         Debug\DBCorrespondManager.obj
+         Debug\DistributeManager.obj
+         Debug\GameServer.obj
+         Debug\GameServerDlg.obj
+         Debug\InitParameter.obj
+         Debug\SensitiveWordsFilter.obj
+         Debug\ServerListManager.obj
+         Debug\ServiceUnits.obj
+         Debug\Stdafx.obj
+         Debug\StockManager.obj
+         Debug\TableFrame.obj
+         "D:\闲来服务器\系统模块\链接库\Ansi\ServiceCoreD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\PlatformDataD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\ModuleManagerD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\GameServiceD.lib"
+     1>AttemperEngineSink.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         GameServer.vcxproj -> D:\闲来服务器\系统模块\服务器组件\游戏服务器\../../../运行/Debug/Ansi/GameServer.exe
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\服务器组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\GameServer.exe ..\..\..\发布组件\服务器组件\Debug\Ansi\GameServer.exe
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.24

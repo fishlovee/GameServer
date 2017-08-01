@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/7/5 20:54:17。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\网络服务\WHSocket.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D NETWORK_SERVICE_DLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope- /Yc"stdafx.h" /Fp"Debug\WHSocketD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D NETWORK_SERVICE_DLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope- /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkService.cpp TCPSocket.cpp
+         TCPSocket.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\网络服务\tcpsocket.cpp(181): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>d:\闲来服务器\系统模块\客户端组件\网络服务\tcpsocket.cpp(210): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+         NetworkService.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\WHSocket.res" WHSocket.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/WHSocketD.dll" /INCREMENTAL /NOLOGO Ws2_32.lib comsupp.lib /DEF:".\WHSocketD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/WHSocketD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../链接库/NetworkServiceD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\WHSocket.res
+         Debug\NetworkService.obj
+         Debug\Stdafx.obj
+         Debug\TCPSocket.obj
+     1>NetworkService.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/NetworkServiceD.lib 和对象 ../../链接库/NetworkServiceD.exp
+     1>NetworkServiceD.exp : warning LNK4070: .EXP 中的 /OUT:NetworkServiceD.dll 指令与输出文件名“../../../运行/Debug/Ansi/WHSocketD.dll”不同；忽略指令
+         WHSocket.vcxproj -> D:\闲来服务器\系统模块\客户端组件\网络服务\../../../运行/Debug/Ansi/WHSocketD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\服务器组件\Debug\Ansi
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\WHSocketD.dll ..\..\..\发布组件\服务器组件\Debug\Ansi\WHSocketD.dll
+         copy /y ..\..\..\运行\Debug\Ansi\WHSocketD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\WHSocketD.dll
+         
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Ansi 已经存在。
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\网络服务\WHSocket.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.57

@@ -1,0 +1,197 @@
+﻿生成启动时间为 2016/7/5 20:51:11。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\游戏控件\ShareControl.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SHARE_CONTROL_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\游戏控件.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SHARE_CONTROL_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\游戏控件.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DlgBrowser.cpp DlgInsureCounter.cpp Expression.cpp FlashControl.cpp Information.cpp MissionManager.cpp PasswordControl.cpp RichEditMessage.cpp ShareControl.cpp SystemTrayIcon.cpp UserInformation.cpp UserItemElement.cpp UserListControl.cpp WebMessage.cpp WebPublicize.cpp WndChatControl.cpp
+         DlgBrowser.cpp
+     1>DlgBrowser.cpp(75): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         DlgInsureCounter.cpp
+     1>DlgInsureCounter.cpp(142): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(163): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(310) : 参见“wcsncat”的声明
+     1>DlgInsureCounter.cpp(169): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(310) : 参见“wcsncat”的声明
+     1>DlgInsureCounter.cpp(176): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(310) : 参见“wcsncat”的声明
+     1>DlgInsureCounter.cpp(197): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(310) : 参见“wcsncat”的声明
+     1>DlgInsureCounter.cpp(214): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(457): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(638): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(654): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(747): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(1008): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(1601): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DlgInsureCounter.cpp(1859): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         Expression.cpp
+     1>Expression.cpp(63): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>Expression.cpp(133): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>Expression.cpp(154): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         FlashControl.cpp
+         Information.cpp
+     1>Information.cpp(334): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         MissionManager.cpp
+     1>d:\闲来服务器\系统模块\全局定义\Module.h(227): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+                 d:\闲来服务器\系统模块\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+                 MissionManager.cpp(138): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+                 d:\闲来服务器\系统模块\客户端组件\平台数据\..\网络服务\WHSocketHead.h(247): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+     1>d:\闲来服务器\系统模块\全局定义\Module.h(235): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\Module.h(243): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\Module.h(249): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\Module.h(254): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         PasswordControl.cpp
+         RichEditMessage.cpp
+     1>RichEditMessage.cpp(340): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>RichEditMessage.cpp(415): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>RichEditMessage.cpp(504): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         ShareControl.cpp
+         SystemTrayIcon.cpp
+         UserInformation.cpp
+     1>UserInformation.cpp(88): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserInformation.cpp(266): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserInformation.cpp(274): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         UserItemElement.cpp
+     1>UserItemElement.cpp(135): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(141): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(146): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(156): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(160): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(301): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(334): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserItemElement.cpp(352): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         UserListControl.cpp
+     1>UserListControl.cpp(468): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(473): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(478): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(489): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(494): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(500): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(506): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(511): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(516): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(521): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(526): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(531): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(536): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(541): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(546): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(551): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(556): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(562): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(568): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(574): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(580): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(594): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>UserListControl.cpp(596): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         WebMessage.cpp
+         WebPublicize.cpp
+         WndChatControl.cpp
+     1>WndChatControl.cpp(246): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>WndChatControl.cpp(320): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>WndChatControl.cpp(333): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\ShareControl.res" ShareControl.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\游戏控件\Release_Unicode\游戏控件.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Release\Unicode\ShareControl.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(游戏控件) does not match the Linker's OutputFile property value (ShareControl). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/ShareControl.dll" /INCREMENTAL:NO /NOLOGO comsuppw.lib /DEF:".\ShareControl.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\游戏控件.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ShareControl.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\ShareControl.res
+         Release_Unicode\DlgBrowser.obj
+         Release_Unicode\DlgInsureCounter.obj
+         Release_Unicode\Expression.obj
+         Release_Unicode\FlashControl.obj
+         Release_Unicode\Information.obj
+         Release_Unicode\MissionManager.obj
+         Release_Unicode\PasswordControl.obj
+         Release_Unicode\RichEditMessage.obj
+         Release_Unicode\ShareControl.obj
+         Release_Unicode\Stdafx.obj
+         Release_Unicode\SystemTrayIcon.obj
+         Release_Unicode\UserInformation.obj
+         Release_Unicode\UserItemElement.obj
+         Release_Unicode\UserListControl.obj
+         Release_Unicode\WebMessage.obj
+         Release_Unicode\WebPublicize.obj
+         Release_Unicode\WndChatControl.obj
+         "D:\闲来服务器\系统模块\链接库\Unicode\ServiceCore.lib"
+         "D:\闲来服务器\系统模块\链接库\Unicode\DownLoad.lib"
+         "D:\闲来服务器\系统模块\链接库\Unicode\WHImage.lib"
+         "D:\闲来服务器\系统模块\链接库\Unicode\SkinControl.lib"
+     1>LINK : fatal error LNK1181: 无法打开输入文件“D:\闲来服务器\系统模块\链接库\Unicode\DownLoad.lib”
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\游戏控件\ShareControl.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:29.40

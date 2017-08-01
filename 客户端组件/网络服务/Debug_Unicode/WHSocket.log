@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/7/7 12:28:38。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\网络服务\WHSocket.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SHARE_CONTROL_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkService.cpp Stdafx.cpp TCPSocket.cpp
+         NetworkService.cpp
+         Stdafx.cpp
+         TCPSocket.cpp
+     1>TCPSocket.cpp(181): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>TCPSocket.cpp(210): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug_Unicode\WHSocket.res" WHSocket.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\网络服务\(ConfigurationName)\WHSocket.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Debug\Unicode\WHSocket.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Unicode/WHSocket.dll" /NOLOGO Ws2_32.lib comsupp.lib /DEF:".\WHSocketD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"(ConfigurationName)\WHSocket.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../链接库/Unicode/WHSocket.lib" /MACHINE:X86 /SAFESEH /DLL Debug_Unicode\WHSocket.res
+         Debug_Unicode\NetworkService.obj
+         Debug_Unicode\Stdafx.obj
+         Debug_Unicode\TCPSocket.obj
+            正在创建库 ../../链接库/Unicode/WHSocket.lib 和对象 ../../链接库/Unicode/WHSocket.exp
+     1>WHSocket.exp : warning LNK4070: .EXP 中的 /OUT:NetworkServiceD.dll 指令与输出文件名“../../../运行/Debug/Unicode/WHSocket.dll”不同；忽略指令
+         WHSocket.vcxproj -> D:\闲来服务器\系统模块\客户端组件\网络服务\(ConfigurationName)\WHSocket.dll
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\网络服务\WHSocket.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.88

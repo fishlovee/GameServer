@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Unicode|Win32">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|Win32">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>游戏客户端</ProjectName>
+    <ProjectGuid>{F2D70F30-23FC-4973-A798-AED329359B33}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../../../运行/Debug/ansi/</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>SparrowXZ</TargetName>
+    <IncludePath>D:\Program Files (x86)\Directx SDK 9.0c\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Debug/ansi/SparrowXZ.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+copy /y ..\..\..\..\运行\Debug\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Release/ansi/SparrowXZ.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Release\Ansi
+copy /y ..\..\..\..\运行\Release\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Release\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Debug/unicode/SparrowXZ.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+copy /y ..\..\..\..\运行\Debug\Unicode\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../游戏发布/血战麻将/SparrowXZ.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CardControl.cpp" />
+    <ClCompile Include="ControlWnd.cpp" />
+    <ClCompile Include="DirectSound.cpp" />
+    <ClCompile Include="DrawSiceWnd.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameClientEngine.cpp" />
+    <ClCompile Include="GameClientView.cpp" />
+    <ClCompile Include="GameLogic.cpp" />
+    <ClCompile Include="GameOption.cpp" />
+    <ClCompile Include="ScoreControl.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardControl.h" />
+    <ClInclude Include="..\消息定义\CMD_HNMJ.h" />
+    <ClInclude Include="ControlWnd.h" />
+    <ClInclude Include="DirectSound.h" />
+    <ClInclude Include="DrawSiceWnd.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameClientEngine.h" />
+    <ClInclude Include="GameClientView.h" />
+    <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="GameOption.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScoreControl.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\麻将声音\男\A_chi.wav" />
+    <Media Include="Res\麻将声音\女\A_chi.wav" />
+    <Media Include="Res\麻将声音\男\A_chi_hu.wav" />
+    <Media Include="Res\麻将声音\女\A_chi_hu.wav" />
+    <Media Include="Res\麻将声音\男\A_gang.wav" />
+    <Media Include="Res\麻将声音\女\A_gang.wav" />
+    <Media Include="Res\麻将声音\女\A_peng.wav" />
+    <Media Include="Res\麻将声音\男\A_peng.wav" />
+    <Media Include="Res\麻将声音\男\F_1.wav" />
+    <Media Include="Res\麻将声音\女\F_1.wav" />
+    <Media Include="Res\麻将声音\女\F_2.wav" />
+    <Media Include="Res\麻将声音\男\F_2.wav" />
+    <Media Include="Res\麻将声音\男\F_3.wav" />
+    <Media Include="Res\麻将声音\女\F_3.wav" />
+    <Media Include="Res\麻将声音\女\F_4.wav" />
+    <Media Include="Res\麻将声音\男\F_4.wav" />
+    <Media Include="Res\麻将声音\女\F_5.wav" />
+    <Media Include="Res\麻将声音\男\F_5.wav" />
+    <Media Include="Res\麻将声音\男\F_6.wav" />
+    <Media Include="Res\麻将声音\女\F_6.wav" />
+    <Media Include="Res\麻将声音\男\F_7.wav" />
+    <Media Include="Res\麻将声音\女\F_7.wav" />
+    <Media Include="Res\麻将声音\Game_end.wav" />
+    <Media Include="Res\麻将声音\Game_lose.wav" />
+    <Media Include="Res\麻将声音\Game_lost.wav" />
+    <Media Include="Res\麻将声音\Game_start.wav" />
+    <Media Include="Res\麻将声音\Game_warn.wav" />
+    <Media Include="Res\麻将声音\Game_win.wav" />
+    <Media Include="Res\麻将声音\Out_card.wav" />
+    <Media Include="Res\麻将声音\男\S_1.wav" />
+    <Media Include="Res\麻将声音\女\S_1.wav" />
+    <Media Include="Res\麻将声音\女\S_2.wav" />
+    <Media Include="Res\麻将声音\男\S_2.wav" />
+    <Media Include="Res\麻将声音\女\S_3.wav" />
+    <Media Include="Res\麻将声音\男\S_3.wav" />
+    <Media Include="Res\麻将声音\女\S_4.wav" />
+    <Media Include="Res\麻将声音\男\S_4.wav" />
+    <Media Include="Res\麻将声音\女\S_5.wav" />
+    <Media Include="Res\麻将声音\男\S_5.wav" />
+    <Media Include="Res\麻将声音\男\S_6.wav" />
+    <Media Include="Res\麻将声音\女\S_6.wav" />
+    <Media Include="Res\麻将声音\女\S_7.wav" />
+    <Media Include="Res\麻将声音\男\S_7.wav" />
+    <Media Include="Res\麻将声音\男\S_8.wav" />
+    <Media Include="Res\麻将声音\女\S_8.wav" />
+    <Media Include="Res\麻将声音\女\S_9.wav" />
+    <Media Include="Res\麻将声音\男\S_9.wav" />
+    <Media Include="Res\麻将声音\女\T_1.wav" />
+    <Media Include="Res\麻将声音\男\T_1.wav" />
+    <Media Include="Res\麻将声音\男\T_2.wav" />
+    <Media Include="Res\麻将声音\女\T_2.wav" />
+    <Media Include="Res\麻将声音\女\T_3.wav" />
+    <Media Include="Res\麻将声音\男\T_3.wav" />
+    <Media Include="Res\麻将声音\男\T_4.wav" />
+    <Media Include="Res\麻将声音\女\T_4.wav" />
+    <Media Include="Res\麻将声音\女\T_5.wav" />
+    <Media Include="Res\麻将声音\男\T_5.wav" />
+    <Media Include="Res\麻将声音\男\T_6.wav" />
+    <Media Include="Res\麻将声音\女\T_6.wav" />
+    <Media Include="Res\麻将声音\女\T_7.wav" />
+    <Media Include="Res\麻将声音\男\T_7.wav" />
+    <Media Include="Res\麻将声音\男\T_8.wav" />
+    <Media Include="Res\麻将声音\女\T_8.wav" />
+    <Media Include="Res\麻将声音\女\T_9.wav" />
+    <Media Include="Res\麻将声音\男\T_9.wav" />
+    <Media Include="Res\麻将声音\女\Ting.wav" />
+    <Media Include="Res\麻将声音\男\Ting.wav" />
+    <Media Include="Res\麻将声音\男\W_1.wav" />
+    <Media Include="Res\麻将声音\女\W_1.wav" />
+    <Media Include="Res\麻将声音\男\W_2.wav" />
+    <Media Include="Res\麻将声音\女\W_2.wav" />
+    <Media Include="Res\麻将声音\男\W_3.wav" />
+    <Media Include="Res\麻将声音\女\W_3.wav" />
+    <Media Include="Res\麻将声音\女\W_4.wav" />
+    <Media Include="Res\麻将声音\男\W_4.wav" />
+    <Media Include="Res\麻将声音\女\W_5.wav" />
+    <Media Include="Res\麻将声音\男\W_5.wav" />
+    <Media Include="Res\麻将声音\女\W_6.wav" />
+    <Media Include="Res\麻将声音\男\W_6.wav" />
+    <Media Include="Res\麻将声音\女\W_7.wav" />
+    <Media Include="Res\麻将声音\男\W_7.wav" />
+    <Media Include="Res\麻将声音\男\W_8.wav" />
+    <Media Include="Res\麻将声音\女\W_8.wav" />
+    <Media Include="Res\麻将声音\男\W_9.wav" />
+    <Media Include="Res\麻将声音\女\W_9.wav" />
+    <Media Include="Res\麻将声音\男\Chi.wav" />
+    <Media Include="Res\麻将声音\女\Chi.wav" />
+    <Media Include="Res\麻将声音\男\Chi_hu.wav" />
+    <Media Include="Res\麻将声音\女\Chi_hu.wav" />
+    <Media Include="Res\麻将声音\DRAW_SICE.wav" />
+    <Media Include="Res\麻将声音\女\Gang.wav" />
+    <Media Include="Res\麻将声音\男\Gang.wav" />
+    <Media Include="Res\麻将声音\男\Peng.wav" />
+    <Media Include="Res\麻将声音\女\Peng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\ACTION_BACK.bmp" />
+    <Image Include="Res\ACTION_EXPLAIN.bmp" />
+    <Image Include="Res\BT_CHIHU.bmp" />
+    <Image Include="Res\BT_GIVEUP.bmp" />
+    <Image Include="Res\BT_LISTEN.bmp" />
+    <Image Include="Res\BT_SCORE_CLOSE.bmp" />
+    <Image Include="Res\BT_START.bmp" />
+    <Image Include="Res\BT_START_TRUSTEE.bmp" />
+    <Image Include="Res\BT_STOP_TRUSTEE.bmp" />
+    <Image Include="Res\CARD_BACK_H.bmp" />
+    <Image Include="Res\CARD_BACK_V.bmp" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_H.bmp" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_V.bmp" />
+    <Image Include="Res\CARD_HEAP_SINGLE_H.bmp" />
+    <Image Include="Res\CARD_HEAP_SINGLE_V.bmp" />
+    <Image Include="Res\CARD_TABLE_BOTTOM.bmp" />
+    <Image Include="Res\CARD_TABLE_LEFT.bmp" />
+    <Image Include="Res\CARD_TABLE_RIGHT.bmp" />
+    <Image Include="Res\CARD_TABLE_TOP.bmp" />
+    <Image Include="Res\CARD_USER_BOTTOM.bmp" />
+    <Image Include="Res\CARD_USER_LEFT.bmp" />
+    <Image Include="Res\CARD_USER_RIGHT.bmp" />
+    <Image Include="Res\CARD_USER_TOP.bmp" />
+    <Image Include="Res\CELL_SCORE.BMP" />
+    <Image Include="Res\CONTROL_BOTTOM.bmp" />
+    <Image Include="Res\CONTROL_MID.bmp" />
+    <Image Include="Res\CONTROL_TOP.bmp" />
+    <Image Include="Res\FAN_PAI.bmp" />
+    <Image Include="Res\GAME_LOGO.bmp" />
+    <Image Include="Res\GAME_SCORE.bmp" />
+    <Image Include="Res\GAME_SCORE_FLAG.bmp" />
+    <Image Include="Res\GameClient.ico" />
+    <Image Include="Res\HUANG_ZHUANG.bmp" />
+    <Image Include="Res\LISTEN_FLAG_H.bmp" />
+    <Image Include="Res\LISTEN_FLAG_V.bmp" />
+    <Image Include="Res\OUT_CARD_TIP.bmp" />
+    <Image Include="Res\SELECT.bmp" />
+    <Image Include="Res\SICE1.bmp" />
+    <Image Include="Res\SICE10.bmp" />
+    <Image Include="Res\SICE11.bmp" />
+    <Image Include="Res\SICE12.bmp" />
+    <Image Include="Res\SICE2.bmp" />
+    <Image Include="Res\SICE3.bmp" />
+    <Image Include="Res\SICE4.bmp" />
+    <Image Include="Res\SICE5.bmp" />
+    <Image Include="Res\SICE6.bmp" />
+    <Image Include="Res\SICE7.bmp" />
+    <Image Include="Res\SICE8.bmp" />
+    <Image Include="Res\SICE9.bmp" />
+    <Image Include="Res\SICE_BACK.bmp" />
+    <Image Include="Res\TRUSTEE.bmp" />
+    <Image Include="Res\USER_ACTION.bmp" />
+    <Image Include="Res\USER_FLAG.bmp" />
+    <Image Include="Res\VIEW_BACK.bmp" />
+    <Image Include="Res\View_center.bmp" />
+    <Image Include="Res\WAIT_TIP.bmp" />
+    <Image Include="Res\WIN_LOSE.bmp" />
+    <Image Include="Res\WIN_ORDER.bmp" />
+    <Image Include="Res\ZUAN_PAI.bmp" />
+    <Image Include="Res\ACTIONANI.png" />
+    <Image Include="Res\ARROW.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_BV.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_LV.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_RV.PNG" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_TV.PNG" />
+    <Image Include="Res\CARD_HEAP_SINGLE_BV.png" />
+    <Image Include="Res\CARD_HEAP_SINGLE_LV.png" />
+    <Image Include="Res\CARD_HEAP_SINGLE_RV.PNG" />
+    <Image Include="Res\CARD_HEAP_SINGLE_TV.png" />
+    <Image Include="Res\CARD_TABLE_BOTTOM.PNG" />
+    <Image Include="Res\CARD_TABLE_LEFT.png" />
+    <Image Include="Res\CARD_TABLE_RIGHT.png" />
+    <Image Include="Res\CARD_TABLE_TOP.png" />
+    <Image Include="Res\CARD_USER_BOTTOM.png" />
+    <Image Include="Res\CARD_USER_LEFT.png" />
+    <Image Include="Res\CARD_USER_RIGHT.png" />
+    <Image Include="Res\CARD_USER_TOP.png" />
+    <Image Include="Res\CELL_SCORE.PNG" />
+    <Image Include="Res\DISC.png" />
+    <Image Include="Res\GAME_LOST.PNG" />
+    <Image Include="Res\GAME_WIN.PNG" />
+    <Image Include="Res\GUA_FENG.PNG" />
+    <Image Include="Res\NUM_LOST.PNG" />
+    <Image Include="Res\NUM_ORDER.PNG" />
+    <Image Include="Res\NUM_WIN.PNG" />
+    <Image Include="Res\png1.png" />
+    <Image Include="Res\Trustee.png" />
+    <Image Include="Res\XIAO_YU.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CARD_CUR.cur" />
+    <None Include="res\GameClient.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GameClient.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

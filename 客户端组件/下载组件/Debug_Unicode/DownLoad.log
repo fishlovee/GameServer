@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/7/7 14:41:15。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\下载组件\DownLoad.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\下载组件\Debug_Unicode\下载组件.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Debug\Unicode\DownLoadD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(下载组件) does not match the Linker's OutputFile property value (DownLoadD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Unicode/DownLoadD.dll" /INCREMENTAL /NOLOGO /DEF:".\DownLoadD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug_Unicode\下载组件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/DownLoadD.lib" /MACHINE:X86 /SAFESEH /DLL Debug_Unicode\DownLoad.res
+         Debug_Unicode\DownLoad.obj
+         Debug_Unicode\DownLoadDLL.obj
+         Debug_Unicode\HeadTranslate.obj
+         Debug_Unicode\Stdafx.obj
+         Debug_Unicode\WEBSocket.obj
+         "D:\闲来服务器\系统模块\链接库\Unicode\ServiceCoreD.lib"
+     1>DownLoad.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Unicode/DownLoadD.lib 和对象 ../../链接库/Unicode/DownLoadD.exp
+         DownLoad.vcxproj -> D:\闲来服务器\系统模块\客户端组件\下载组件\Debug_Unicode\下载组件.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+         copy /y ..\..\..\运行\Debug\Unicode\下载组件.dll ..\..\..\发布组件\客户端组件\Debug\Unicode\下载组件.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Unicode 已经存在。
+         系统找不到指定的文件。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: copy /y ..\..\..\运行\Debug\Unicode\下载组件.dll ..\..\..\发布组件\客户端组件\Debug\Unicode\下载组件.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :VCEnd”已退出，代码为 1。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\下载组件\DownLoad.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.88

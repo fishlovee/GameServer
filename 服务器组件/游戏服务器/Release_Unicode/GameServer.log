@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/7/21 17:54:18。
+     1>项目“E:\闲来\闲来服务器\闲来服务器\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(E:\闲来\闲来服务器\闲来服务器\系统模块\服务器组件\游戏服务器\Release_Unicode\游戏服务器.exe) does not match the Linker's OutputFile property value (E:\闲来\闲来服务器\闲来服务器\运行\Release\Unicode\GameServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(游戏服务器) does not match the Linker's OutputFile property value (GameServer). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/GameServer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\游戏服务器.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_Unicode\游戏服务器.lib" /MACHINE:X86 /SAFESEH Release_Unicode\GameServer.res
+         Release_Unicode\AttemperEngineSink.obj
+         Release_Unicode\DataBaseEngineSink.obj
+         Release_Unicode\DBCorrespondManager.obj
+         Release_Unicode\DistributeManager.obj
+         Release_Unicode\GameServer.obj
+         Release_Unicode\GameServerDlg.obj
+         Release_Unicode\InitParameter.obj
+         Release_Unicode\SensitiveWordsFilter.obj
+         Release_Unicode\ServerListManager.obj
+         Release_Unicode\ServiceUnits.obj
+         Release_Unicode\Stdafx.obj
+         Release_Unicode\StockManager.obj
+         Release_Unicode\TableFrame.obj
+         "E:\闲来\闲来服务器\闲来服务器\系统模块\链接库\Unicode\ServiceCore.lib"
+         "E:\闲来\闲来服务器\闲来服务器\系统模块\链接库\Unicode\ModuleManager.lib"
+         "E:\闲来\闲来服务器\闲来服务器\系统模块\链接库\Unicode\GameService.lib"
+     1>LINK : fatal error LNK1181: 无法打开输入文件“E:\闲来\闲来服务器\闲来服务器\系统模块\链接库\Unicode\ModuleManager.lib”
+     1>已完成生成项目“E:\闲来\闲来服务器\闲来服务器\系统模块\服务器组件\游戏服务器\GameServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.19

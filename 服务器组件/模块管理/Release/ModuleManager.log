@@ -1,0 +1,195 @@
+﻿生成启动时间为 2017/6/10 11:11:00。
+     1>项目“G:\code\棋牌游戏\majiang-master\服务器组件\模块管理\ModuleManager.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D MODULE_MANAGER_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ModuleManager.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D MODULE_MANAGER_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ModuleManager.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DlgServerItem.cpp DlgServerMatch.cpp DlgServerWizard.cpp ListControl.cpp MatchListControl.cpp ModuleDBParameter.cpp ModuleInfoManager.cpp ModuleListControl.cpp ModuleManager.cpp ServerCustomRule.cpp ServerInfoManager.cpp ServerListControl.cpp
+         DlgServerItem.cpp
+     1>DlgServerItem.cpp(218): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerItem.cpp(232): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerItem.cpp(246): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerItem.cpp(354): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 g:\code\棋牌游戏\majiang-master\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+                 DlgServerItem.cpp(242): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+                 g:\code\棋牌游戏\majiang-master\服务器组件\游戏服务\GameServiceHead.h(1484): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         DlgServerMatch.cpp
+         DlgServerWizard.cpp
+     1>DlgServerWizard.cpp(324): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerWizard.cpp(1138): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerWizard.cpp(1151): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerWizard.cpp(1162): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>DlgServerWizard.cpp(1613): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 g:\code\棋牌游戏\majiang-master\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+                 DlgServerWizard.cpp(1158): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+                 g:\code\棋牌游戏\majiang-master\服务器组件\游戏服务\GameServiceHead.h(1484): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=IGameServiceManager
+                 ]
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         ListControl.cpp
+         MatchListControl.cpp
+     1>MatchListControl.cpp(189): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>MatchListControl.cpp(198): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>MatchListControl.cpp(202): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>MatchListControl.cpp(209): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>MatchListControl.cpp(220): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         ModuleDBParameter.cpp
+         ModuleInfoManager.cpp
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 g:\code\棋牌游戏\majiang-master\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+                 ModuleInfoManager.cpp(186): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+                 g:\code\棋牌游戏\majiang-master\服务器组件\模块管理\..\..\服务器组件\内核引擎\KernelEngineHead.h(709): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         ModuleListControl.cpp
+         ModuleManager.cpp
+         ServerCustomRule.cpp
+         ServerInfoManager.cpp
+     1>ServerInfoManager.cpp(544): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ServerInfoManager.cpp(638): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ServerInfoManager.cpp(863): warning C4244: “=”: 从“LONGLONG”转换到“WORD”，可能丢失数据
+     1>ServerInfoManager.cpp(924): warning C4244: “return”: 从“LONG”转换到“WORD”，可能丢失数据
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 g:\code\棋牌游戏\majiang-master\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+                 ServerInfoManager.cpp(720): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+                 g:\code\棋牌游戏\majiang-master\服务器组件\模块管理\..\..\服务器组件\内核引擎\KernelEngineHead.h(709): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=IDataBase
+                 ]
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         ServerListControl.cpp
+     1>ServerListControl.cpp(281): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ServerListControl.cpp(286): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ServerListControl.cpp(290): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ServerListControl.cpp(296): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ServerListControl.cpp(300): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+     1>ServerListControl.cpp(304): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdlib.h(468) : 参见“_itoa”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\ModuleManager.res" ModuleManager.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/ModuleManager.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ModuleManager.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/ModuleManager.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/ModuleManager.lib" /MACHINE:X86 /SAFESEH /DLL Release\ModuleManager.res
+         Release\DlgServerItem.obj
+         Release\DlgServerMatch.obj
+         Release\DlgServerWizard.obj
+         Release\ListControl.obj
+         Release\MatchListControl.obj
+         Release\ModuleDBParameter.obj
+         Release\ModuleInfoManager.obj
+         Release\ModuleListControl.obj
+         Release\ModuleManager.obj
+         Release\ServerCustomRule.obj
+         Release\ServerInfoManager.obj
+         Release\ServerListControl.obj
+         Release\Stdafx.obj
+         "G:\code\棋牌游戏\majiang-master\链接库\Ansi\ServiceCore.lib"
+            正在创建库 ../../链接库/Ansi/ModuleManager.lib 和对象 ../../链接库/Ansi/ModuleManager.exp
+         ModuleManager.vcxproj -> G:\code\棋牌游戏\majiang-master\服务器组件\模块管理\../../../运行/Release/Ansi/ModuleManager.dll
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\服务器组件\模块管理\ModuleManager.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.47

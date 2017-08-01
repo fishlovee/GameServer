@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/7/5 20:53:10。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\游戏引擎\GameEngine.vcxproj”在节点 3 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D GAME_ENGINE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\GameEngineD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D GAME_ENGINE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D GAME_ENGINE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameEngineD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp D3DSound.cpp VirtualButton.cpp VirtualEngine.cpp VirtualSlider.cpp VirtualWindow.cpp TraceDebug.cpp TraceDialog.cpp D3DFont.cpp D3DSprite.cpp D3DTexture.cpp LapseCount.cpp TextureManager.cpp D3DDevice.cpp D3DDirect.cpp
+         D3DDirect.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         D3DDevice.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         TextureManager.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         LapseCount.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         D3DTexture.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         D3DSprite.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         D3DFont.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         TraceDialog.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         TraceDebug.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         VirtualWindow.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         VirtualSlider.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         VirtualEngine.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         VirtualButton.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         D3DSound.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏引擎\gameenginehead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameEngine.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\游戏引擎\GameEngine.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:24.28

@@ -1,0 +1,57 @@
+﻿生成启动时间为 2016/7/7 12:29:32。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\界面控件\SkinControl.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SKIN_CONTROL_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug_Unicode\界面控件.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SKIN_CONTROL_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug_Unicode\界面控件.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SkinButton.cpp SkinComboBox.cpp SkinControl.cpp SkinDialog.cpp SkinEdit.cpp SkinEncircle.cpp SkinHyperLink.cpp SkinListCtrl.cpp SkinMenu.cpp SkinRenderManager.cpp SkinResourceManager.cpp SkinRichEdit.cpp SkinScrollBar.cpp SkinSplitter.cpp SkinTabCtrl.cpp
+         SkinTabCtrl.cpp
+         SkinSplitter.cpp
+         SkinScrollBar.cpp
+         SkinRichEdit.cpp
+         SkinResourceManager.cpp
+         SkinRenderManager.cpp
+         SkinMenu.cpp
+         SkinListCtrl.cpp
+         SkinHyperLink.cpp
+         SkinEncircle.cpp
+         SkinEdit.cpp
+         SkinDialog.cpp
+         SkinControl.cpp
+         SkinComboBox.cpp
+         SkinButton.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug_Unicode\ /nologo /fo"Debug_Unicode\SkinControl.res" SkinControl.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\界面控件\Debug_Unicode\界面控件.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Debug\Unicode\SkinControlD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(界面控件) does not match the Linker's OutputFile property value (SkinControlD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Unicode/SkinControlD.dll" /INCREMENTAL /NOLOGO /DEF:".\SkinControlD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug_Unicode\界面控件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/SkinControlD.lib" /MACHINE:X86 /SAFESEH /DLL Debug_Unicode\SkinControl.res
+         Debug_Unicode\SkinButton.obj
+         Debug_Unicode\SkinComboBox.obj
+         Debug_Unicode\SkinControl.obj
+         Debug_Unicode\SkinDialog.obj
+         Debug_Unicode\SkinEdit.obj
+         Debug_Unicode\SkinEncircle.obj
+         Debug_Unicode\SkinHyperLink.obj
+         Debug_Unicode\SkinListCtrl.obj
+         Debug_Unicode\SkinMenu.obj
+         Debug_Unicode\SkinRenderManager.obj
+         Debug_Unicode\SkinResourceManager.obj
+         Debug_Unicode\SkinRichEdit.obj
+         Debug_Unicode\SkinScrollBar.obj
+         Debug_Unicode\SkinSplitter.obj
+         Debug_Unicode\SkinTabCtrl.obj
+         Debug_Unicode\Stdafx.obj
+         "D:\闲来服务器\系统模块\链接库\Unicode\ServiceCoreD.lib"
+         "D:\闲来服务器\系统模块\链接库\Unicode\WHImageD.lib"
+     1>SkinButton.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>Detours.lib(detours.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>Detours.lib(disasm.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+            正在创建库 ../../链接库/Unicode/SkinControlD.lib 和对象 ../../链接库/Unicode/SkinControlD.exp
+     1>msvcrtd.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>../../../运行/Debug/Unicode/SkinControlD.dll : fatal error LNK1281: 无法生成 SAFESEH 映像。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\界面控件\SkinControl.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:32.08

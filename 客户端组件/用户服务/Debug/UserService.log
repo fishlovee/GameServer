@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/7/5 20:53:51。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\用户服务\UserService.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D USER_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UserServiceD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D USER_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\UserServiceD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ClientUserManager.cpp GameLevelParser.cpp UserOrderParser.cpp UserService.cpp
+         UserService.cpp
+         UserOrderParser.cpp
+         GameLevelParser.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\用户服务\gamelevelparser.cpp(54): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\用户服务\gamelevelparser.cpp(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\用户服务\gamelevelparser.cpp(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\用户服务\gamelevelparser.cpp(111): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         ClientUserManager.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\UserService.res" UserService.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/UserServiceD.dll" /INCREMENTAL /NOLOGO /DEF:".\UserServiceD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/UserServiceD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/UserServiceD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\UserService.res
+         Debug\ClientUserManager.obj
+         Debug\GameLevelParser.obj
+         Debug\Stdafx.obj
+         Debug\UserOrderParser.obj
+         Debug\UserService.obj
+         "D:\闲来服务器\系统模块\链接库\Ansi\PlatformDataD.lib"
+     1>ClientUserManager.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Ansi/UserServiceD.lib 和对象 ../../链接库/Ansi/UserServiceD.exp
+         UserService.vcxproj -> D:\闲来服务器\系统模块\客户端组件\用户服务\../../../运行/Debug/Ansi/UserServiceD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\UserServiceD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\UserServiceD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\用户服务\UserService.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.81

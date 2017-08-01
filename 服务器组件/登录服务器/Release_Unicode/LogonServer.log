@@ -1,0 +1,228 @@
+﻿生成启动时间为 2016/7/21 17:54:17。
+     1>项目“E:\闲来\闲来服务器\闲来服务器\系统模块\服务器组件\登录服务器\LogonServer.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\登录服务器.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AttemperEngineSink.cpp DataBaseEngineSink.cpp
+         AttemperEngineSink.cpp
+     1>AttemperEngineSink.cpp(18): error C2664: “MultiByteToWideChar”: 不能将参数 3 从“LPCTSTR”转换为“LPCCH”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AttemperEngineSink.cpp(21): error C2664: “MultiByteToWideChar”: 不能将参数 3 从“LPCTSTR”转换为“LPCCH”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AttemperEngineSink.cpp(36): error C2664: “strncpy”: 不能将参数 2 从“const wchar_t *”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>AttemperEngineSink.cpp(2170): error C2665: “ConvertUtf8ToGBK”: 2 个重载中没有一个可以转换所有参数类型
+                 AttemperEngineSink.cpp(32): 可能是“void ConvertUtf8ToGBK(char *,int)”
+                 尝试匹配参数列表“(TCHAR [32], int)”时
+     1>AttemperEngineSink.cpp(2228): error C2665: “ConvertUtf8ToGBK”: 2 个重载中没有一个可以转换所有参数类型
+                 AttemperEngineSink.cpp(32): 可能是“void ConvertUtf8ToGBK(char *,int)”
+                 尝试匹配参数列表“(TCHAR [32], int)”时
+     1>AttemperEngineSink.cpp(3767): error C2664: “lstrcpynW”: 不能将参数 2 从“char [33]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         DataBaseEngineSink.cpp
+     1>DataBaseEngineSink.cpp(344): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DataBaseEngineSink.cpp(401): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DataBaseEngineSink.cpp(459): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>DataBaseEngineSink.cpp(516): error C2664: “_snprintf”: 不能将参数 1 从“TCHAR [16]”转换为“char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(2245): warning C4800: “BYTE”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>DataBaseEngineSink.cpp(2246): warning C4800: “BYTE”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>DataBaseEngineSink.cpp(2390): warning C4244: “=”: 从“LONGLONG”转换到“INT”，可能丢失数据
+     1>DataBaseEngineSink.cpp(2391): warning C4244: “=”: 从“LONGLONG”转换到“INT”，可能丢失数据
+     1>DataBaseEngineSink.cpp(2466): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(2468): warning C4244: “参数”: 从“LONGLONG”转换到“int”，可能丢失数据
+     1>DataBaseEngineSink.cpp(2524): warning C4800: “BYTE”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>DataBaseEngineSink.cpp(2732): warning C4244: “=”: 从“WORD”转换到“BYTE”，可能丢失数据
+     1>DataBaseEngineSink.cpp(3017): error C2664: “CDataBaseAide::GetValue_WORD”: 不能将参数 1 从“const char [10]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(3018): error C2664: “CDataBaseAide::GetValue_LONGLONG”: 不能将参数 1 从“const char [11]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(3019): error C2664: “CDataBaseAide::GetValue_DWORD”: 不能将参数 1 从“const char [12]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(3020): error C2664: “CDataBaseAide::GetValue_DWORD”: 不能将参数 1 从“const char [17]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(3069): error C2664: “CDataBaseAide::GetValue_DWORD”: 不能将参数 1 从“const char [9]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>DataBaseEngineSink.cpp(3180): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>DataBaseEngineSink.cpp(3431): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3434): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3437): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3495): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3498): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3501): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>DataBaseEngineSink.cpp(3504): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“TCHAR [32]”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+         正在生成代码...
+     1>已完成生成项目“E:\闲来\闲来服务器\闲来服务器\系统模块\服务器组件\登录服务器\LogonServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41

@@ -1,0 +1,10 @@
+﻿生成启动时间为 2016/7/7 12:28:01。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\视频组件\VideoService.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D VIDEO_SERVICE_DLL /D _NO_DISPATCHEX_GUIDS /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\VideoServiceD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DlgVideoClone.cpp VideoServiceControl.cpp
+         VideoServiceControl.cpp
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\视频组件\VideoService.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.90

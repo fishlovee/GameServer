@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/7/7 12:29:01。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\平台数据\PlatformData.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D PLATFORM_DATA_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug_Unicode\平台数据.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D PLATFORM_DATA_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug_Unicode\平台数据.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GlobalServer.cpp GlobalUserInfo.cpp OptionParameter.cpp PlatformData.cpp
+         PlatformData.cpp
+         OptionParameter.cpp
+         GlobalUserInfo.cpp
+         GlobalServer.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(30): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(87): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(91): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(108): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(130): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\平台数据\globalserver.cpp(147): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug_Unicode\ /nologo /fo"Debug_Unicode\PlatformData.res" PlatformData.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\平台数据\Debug_Unicode\平台数据.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Debug\Unicode\PlatformDataD.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(平台数据) does not match the Linker's OutputFile property value (PlatformDataD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Unicode/PlatformDataD.dll" /INCREMENTAL /NOLOGO /DEF:".\PlatformDataD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug_Unicode\平台数据.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/PlatformDataD.lib" /MACHINE:X86 /SAFESEH /DLL Debug_Unicode\PlatformData.res
+         Debug_Unicode\GlobalServer.obj
+         Debug_Unicode\GlobalUserInfo.obj
+         Debug_Unicode\OptionParameter.obj
+         Debug_Unicode\PlatformData.obj
+         Debug_Unicode\Stdafx.obj
+         "D:\闲来服务器\系统模块\链接库\Unicode\ServiceCoreD.lib"
+     1>GlobalServer.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : fatal error LNK1104: 无法打开文件“../../链接库/Unicode/WHImageD.lib”
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\平台数据\PlatformData.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:21.97

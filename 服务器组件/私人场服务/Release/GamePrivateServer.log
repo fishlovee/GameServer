@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017/6/10 11:10:53。
+     1>项目“G:\code\棋牌游戏\majiang-master\服务器组件\私人场服务\GamePrivateServer.vcxproj”在节点 6 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D PRIVATE_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\PrivateService.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D PRIVATE_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\PrivateService.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FangKaHttpUnits.cpp GamePrivateServer.cpp PrivateGame.cpp PrivateServiceManager.cpp PrivateTableInfo.cpp CTableFramePrivate.cpp
+         FangKaHttpUnits.cpp
+         GamePrivateServer.cpp
+         PrivateGame.cpp
+         PrivateServiceManager.cpp
+         PrivateTableInfo.cpp
+         CTableFramePrivate.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\GamePrivateServer.res" GamePrivateServer.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/PrivateService.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/PrivateService.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Ansi/MatchService.lib" /MACHINE:X86 /SAFESEH /DLL Release\GamePrivateServer.res
+         Release\FangKaHttpUnits.obj
+         Release\GamePrivateServer.obj
+         Release\PrivateGame.obj
+         Release\PrivateServiceManager.obj
+         Release\PrivateTableInfo.obj
+         Release\Stdafx.obj
+         Release\CTableFramePrivate.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“../../链接库/Ansi/GameService.lib”
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\服务器组件\私人场服务\GamePrivateServer.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.80

@@ -1,0 +1,71 @@
+﻿生成启动时间为 2016/7/7 12:28:36。
+     1>项目“D:\闲来服务器\系统模块\公共组件\服务核心\ServiceCore.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug_Unicode\ServiceCoreD.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug_Unicode\ServiceCoreD.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ServiceCore.cpp WHCommandLine.cpp WHDataLocker.cpp WHDataQueue.cpp WHEncrypt.cpp WHIniData.cpp WHRegKey.cpp WHService.cpp WHThread.cpp
+         WHThread.cpp
+         WHService.cpp
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whservice.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whservice.cpp(183): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(784) : 参见“_swprintf”的声明
+         WHRegKey.cpp
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whregkey.cpp(94): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whregkey.cpp(116): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(730) : 参见“_snwprintf”的声明
+         WHIniData.cpp
+         WHEncrypt.cpp
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whencrypt.cpp(359): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(784) : 参见“_swprintf”的声明
+     1>d:\闲来服务器\系统模块\公共组件\服务核心\whencrypt.cpp(389): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\swprintf.inl(85) : 参见“swprintf”的声明
+         WHDataQueue.cpp
+         WHDataLocker.cpp
+         WHCommandLine.cpp
+         ServiceCore.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug_Unicode\ /nologo /fo"Debug_Unicode\ServiceCore.res" ServiceCore.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Unicode/ServiceCoreD.dll" /INCREMENTAL /NOLOGO /DEF:".\ServiceCoreD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Unicode/ServiceCoreD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/ServiceCoreD.lib" /MACHINE:X86 /SAFESEH /DLL Debug_Unicode\ServiceCore.res
+         Debug_Unicode\ServiceCore.obj
+         Debug_Unicode\Stdafx.obj
+         Debug_Unicode\WHCommandLine.obj
+         Debug_Unicode\WHDataLocker.obj
+         Debug_Unicode\WHDataQueue.obj
+         Debug_Unicode\WHEncrypt.obj
+         Debug_Unicode\WHIniData.obj
+         Debug_Unicode\WHRegKey.obj
+         Debug_Unicode\WHService.obj
+         Debug_Unicode\WHThread.obj
+     1>ServiceCore.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Unicode/ServiceCoreD.lib 和对象 ../../链接库/Unicode/ServiceCoreD.exp
+     1>ZLibD.lib(Adler32.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Adler32.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Compress.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Compress.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Deflate.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Deflate.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Infblock.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infblock.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Infcodes.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infcodes.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Inffast.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inffast.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Inflate.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inflate.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Inftrees.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Inftrees.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Infutil.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Infutil.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Trees.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Trees.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Uncompr.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Uncompr.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ZLibD.lib(Zutil.obj) : warning LNK4099: 未找到 PDB“vc70.pdb”(使用“ZLibD.lib(Zutil.obj)”或在“D:\闲来服务器\运行\Debug\Unicode\vc70.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ServiceCore.vcxproj -> D:\闲来服务器\系统模块\公共组件\服务核心\../../../运行/Debug/Unicode/ServiceCoreD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\服务器组件\Debug\Unicode
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+         copy /y ..\..\..\运行\Debug\Unicode\ServiceCoreD.dll ..\..\..\发布组件\服务器组件\Debug\Unicode\ServiceCoreD.dll
+         copy /y ..\..\..\运行\Debug\Unicode\ServiceCoreD.dll ..\..\..\发布组件\客户端组件\Debug\Unicode\ServiceCoreD.dll
+         
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\公共组件\服务核心\ServiceCore.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.78

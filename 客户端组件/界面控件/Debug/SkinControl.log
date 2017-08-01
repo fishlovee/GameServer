@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/7/7 12:28:03。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\界面控件\SkinControl.vcxproj”在节点 4 上(Build 个目标)。
+     1>Link:
+         SkinControl.vcxproj -> D:\闲来服务器\系统模块\客户端组件\界面控件\../../../运行/Debug/Ansi/SkinControlD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\SkinControlD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\SkinControlD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\界面控件\SkinControl.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.65

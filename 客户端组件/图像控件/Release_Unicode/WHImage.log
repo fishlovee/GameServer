@@ -1,0 +1,49 @@
+﻿生成启动时间为 2016/7/5 20:50:20。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\图像控件\WHImage.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WH_IMAGE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\图像控件.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D WH_IMAGE_DLL /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\图像控件.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BitImage.cpp BitImageEx.cpp D2DEngine.cpp DFontEx.cpp GIFImage.cpp PngImage.cpp PngImageEx.cpp WHImage.cpp
+         BitImage.cpp
+         BitImageEx.cpp
+         D2DEngine.cpp
+         DFontEx.cpp
+         GIFImage.cpp
+         PngImage.cpp
+         PngImageEx.cpp
+         WHImage.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease_Unicode\ /nologo /fo"Release_Unicode\WHImage.res" WHImage.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\闲来服务器\系统模块\客户端组件\图像控件\Release_Unicode\图像控件.dll) does not match the Linker's OutputFile property value (D:\闲来服务器\运行\Release\Unicode\WHImage.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(图像控件) does not match the Linker's OutputFile property value (WHImage). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Unicode/WHImage.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\WHImage.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Release_Unicode\图像控件.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Unicode/WHImage.lib" /MACHINE:X86 /SAFESEH /DLL Release_Unicode\WHImage.res
+         Release_Unicode\BitImage.obj
+         Release_Unicode\BitImageEx.obj
+         Release_Unicode\D2DEngine.obj
+         Release_Unicode\DFontEx.obj
+         Release_Unicode\GIFImage.obj
+         Release_Unicode\PngImage.obj
+         Release_Unicode\PngImageEx.obj
+         Release_Unicode\Stdafx.obj
+         Release_Unicode\WHImage.obj
+         "D:\闲来服务器\系统模块\链接库\Unicode\ServiceCore.lib"
+            正在创建库 ../../链接库/Unicode/WHImage.lib 和对象 ../../链接库/Unicode/WHImage.exp
+         WHImage.vcxproj -> D:\闲来服务器\系统模块\客户端组件\图像控件\Release_Unicode\图像控件.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Release\Unicode
+         copy /y ..\..\..\运行\Release\Unicode\图像控件.dll ..\..\..\发布组件\客户端组件\Release\Unicode\图像控件.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Release\Unicode 已经存在。
+         系统找不到指定的文件。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 命令“mkdir ..\..\..\发布组件\客户端组件\Release\Unicode
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: copy /y ..\..\..\运行\Release\Unicode\图像控件.dll ..\..\..\发布组件\客户端组件\Release\Unicode\图像控件.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :VCEnd”已退出，代码为 1。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\图像控件\WHImage.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:18.02

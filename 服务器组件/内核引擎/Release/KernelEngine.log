@@ -1,0 +1,43 @@
+﻿生成启动时间为 2017/6/10 11:10:53。
+     1>项目“G:\code\棋牌游戏\majiang-master\服务器组件\内核引擎\KernelEngine.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D KERNEL_ENGINE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\KernelEngine.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D KERNEL_ENGINE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt KernelEngine.cpp AttemperEngine.cpp TimerEngine.cpp QueueService.cpp DataBase.cpp DataBaseAide.cpp TCPNetworkEngine.cpp TCPSocketService.cpp TraceService.cpp AsynchronismEngine.cpp
+         KernelEngine.cpp
+         AttemperEngine.cpp
+         TimerEngine.cpp
+         QueueService.cpp
+         DataBase.cpp
+         DataBaseAide.cpp
+         TCPNetworkEngine.cpp
+         TCPSocketService.cpp
+         TraceService.cpp
+     1>TraceService.cpp(149): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>TraceService.cpp(153): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         AsynchronismEngine.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\KernelEngine.res" KernelEngine.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/KernelEngine.dll" /INCREMENTAL:NO /NOLOGO Ws2_32.lib /DEF:".\KernelEngine.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/KernelEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/KernelEngine.lib" /MACHINE:X86 /SAFESEH /DLL Release\KernelEngine.res
+         Release\KernelEngine.obj
+         Release\AttemperEngine.obj
+         Release\TimerEngine.obj
+         Release\QueueService.obj
+         Release\DataBase.obj
+         Release\DataBaseAide.obj
+         Release\TCPNetworkEngine.obj
+         Release\TCPSocketService.obj
+         Release\TraceService.obj
+         Release\AsynchronismEngine.obj
+         Release\Stdafx.obj
+            正在创建库 ../../链接库/Ansi/KernelEngine.lib 和对象 ../../链接库/Ansi/KernelEngine.exp
+         KernelEngine.vcxproj -> G:\code\棋牌游戏\majiang-master\服务器组件\内核引擎\../../../运行/Release/Ansi/KernelEngine.dll
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\服务器组件\内核引擎\KernelEngine.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.47

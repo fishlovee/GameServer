@@ -1,0 +1,204 @@
+﻿生成启动时间为 2016/7/5 20:54:46。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\游戏控件\ShareControl.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SHARE_CONTROL_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ShareControlD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D SHARE_CONTROL_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ShareControlD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DlgBrowser.cpp DlgInsureCounter.cpp Expression.cpp FlashControl.cpp Information.cpp MissionManager.cpp PasswordControl.cpp RichEditMessage.cpp ShareControl.cpp SystemTrayIcon.cpp UserInformation.cpp UserItemElement.cpp UserListControl.cpp WebMessage.cpp WebPublicize.cpp WndChatControl.cpp
+         WndChatControl.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\wndchatcontrol.cpp(246): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\wndchatcontrol.cpp(320): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\wndchatcontrol.cpp(333): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         WebPublicize.cpp
+         WebMessage.cpp
+         UserListControl.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(468): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(473): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(478): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(489): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(494): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(500): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(506): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(511): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(516): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(521): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(526): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(531): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(536): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(541): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(546): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(551): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(556): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(562): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(568): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(574): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(580): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(594): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userlistcontrol.cpp(596): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         UserItemElement.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(135): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(141): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(146): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(156): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(160): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(301): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(334): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\useritemelement.cpp(352): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         UserInformation.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userinformation.cpp(88): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(474) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userinformation.cpp(266): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(474) : 参见“_snwprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\userinformation.cpp(274): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(474) : 参见“_snwprintf”的声明
+         SystemTrayIcon.cpp
+         ShareControl.cpp
+         RichEditMessage.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\richeditmessage.cpp(340): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\richeditmessage.cpp(415): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\richeditmessage.cpp(504): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         PasswordControl.cpp
+         MissionManager.cpp
+     1>d:\闲来服务器\系统模块\全局定义\module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+                 d:\闲来服务器\系统模块\全局定义\module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+                 d:\闲来服务器\系统模块\客户端组件\游戏控件\missionmanager.cpp(138): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+                 d:\闲来服务器\系统模块\客户端组件\网络服务\whsockethead.h(247): 参见对正在编译的类 模板 实例化“CTempldateHelper<IModeluInterface>”的引用
+                 with
+                 [
+                     IModeluInterface=ITCPSocket
+                 ]
+     1>d:\闲来服务器\系统模块\全局定义\module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\全局定义\module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         Information.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\information.cpp(334): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         FlashControl.cpp
+         Expression.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\expression.cpp(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\expression.cpp(133): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\expression.cpp(154): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         DlgInsureCounter.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(142): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(163): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\tchar.h(1489) : 参见“_tcsncat”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(169): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\tchar.h(1489) : 参见“_tcsncat”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(176): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\tchar.h(1489) : 参见“_tcsncat”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(197): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\tchar.h(1489) : 参见“_tcsncat”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(457): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(638): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(654): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(747): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(1008): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(1601): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlginsurecounter.cpp(1859): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         DlgBrowser.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏控件\dlgbrowser.cpp(75): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\ShareControl.res" ShareControl.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/ShareControlD.dll" /INCREMENTAL /NOLOGO comsuppw.lib /DEF:".\ShareControlD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/ShareControlD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/ShareControlD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ShareControl.res
+         Debug\DlgBrowser.obj
+         Debug\DlgInsureCounter.obj
+         Debug\Expression.obj
+         Debug\FlashControl.obj
+         Debug\Information.obj
+         Debug\MissionManager.obj
+         Debug\PasswordControl.obj
+         Debug\RichEditMessage.obj
+         Debug\ShareControl.obj
+         Debug\Stdafx.obj
+         Debug\SystemTrayIcon.obj
+         Debug\UserInformation.obj
+         Debug\UserItemElement.obj
+         Debug\UserListControl.obj
+         Debug\WebMessage.obj
+         Debug\WebPublicize.obj
+         Debug\WndChatControl.obj
+         "D:\闲来服务器\系统模块\链接库\Ansi\ServiceCoreD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\DownLoadD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\WHImageD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\SkinControlD.lib"
+     1>DlgBrowser.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Ansi/ShareControlD.lib 和对象 ../../链接库/Ansi/ShareControlD.exp
+         ShareControl.vcxproj -> D:\闲来服务器\系统模块\客户端组件\游戏控件\../../../运行/Debug/Ansi/ShareControlD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\ShareControlD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\ShareControlD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\游戏控件\ShareControl.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:39.89

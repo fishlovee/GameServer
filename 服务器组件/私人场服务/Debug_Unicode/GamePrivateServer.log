@@ -1,0 +1,50 @@
+﻿生成启动时间为 2016/7/7 14:58:41。
+     1>项目“D:\闲来服务器\系统模块\服务器组件\私人场服务\GamePrivateServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D MATCH_SERVICE_DLL /D _UNICODE /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug_Unicode\MatchServiceD.pch" /Fo"Debug_Unicode\\" /Fd"Debug_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FangKaHttpUnits.cpp PrivateTableInfo.cpp
+         PrivateTableInfo.cpp
+     1>d:\闲来服务器\系统模块\服务器组件\私人场服务\privatetableinfo.cpp(79): error C2679: 二进制“=”: 没有找到接受“LPCTSTR”类型的右操作数的运算符(或没有可接受的转换)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(912): 可能是“std::basic_string<_Elem,_Traits,_Alloc> &std::basic_string<_Elem,_Traits,_Alloc>::operator =(std::basic_string<_Elem,_Traits,_Alloc> &&) throw()”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(969): 或       “std::basic_string<_Elem,_Traits,_Alloc> &std::basic_string<_Elem,_Traits,_Alloc>::operator =(const std::basic_string<_Elem,_Traits,_Alloc> &)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(987): 或       “std::basic_string<_Elem,_Traits,_Alloc> &std::basic_string<_Elem,_Traits,_Alloc>::operator =(const _Elem *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(992): 或       “std::basic_string<_Elem,_Traits,_Alloc> &std::basic_string<_Elem,_Traits,_Alloc>::operator =(_Elem)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 尝试匹配参数列表“(std::basic_string<_Elem,_Traits,_Alloc>, LPCTSTR)”时
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         正在生成代码...
+         正在编译...
+         FangKaHttpUnits.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\闲来服务器\系统模块\服务器组件\私人场服务\GamePrivateServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:13.22

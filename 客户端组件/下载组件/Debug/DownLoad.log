@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/7/5 20:54:34。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\下载组件\DownLoad.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D DOWN_LOAD_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\DownLoadD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D DOWN_LOAD_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DownLoadD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DownLoad.cpp DownLoadDLL.cpp HeadTranslate.cpp WEBSocket.cpp
+         WEBSocket.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\下载组件\websocket.cpp(209): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         HeadTranslate.cpp
+         DownLoadDLL.cpp
+         DownLoad.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\下载组件\download.cpp(303): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\DownLoad.res" DownLoad.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/DownLoadD.dll" /INCREMENTAL /NOLOGO /DEF:".\DownLoadD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/DownLoadD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/DownLoadD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\DownLoad.res
+         Debug\DownLoad.obj
+         Debug\DownLoadDLL.obj
+         Debug\HeadTranslate.obj
+         Debug\Stdafx.obj
+         Debug\WEBSocket.obj
+         "D:\闲来服务器\系统模块\链接库\Ansi\ServiceCoreD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\WHImageD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\PlatformDataD.lib"
+         "D:\闲来服务器\系统模块\链接库\Ansi\SkinControlD.lib"
+     1>DownLoad.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Ansi/DownLoadD.lib 和对象 ../../链接库/Ansi/DownLoadD.exp
+         DownLoad.vcxproj -> D:\闲来服务器\系统模块\客户端组件\下载组件\../../../运行/Debug/Ansi/DownLoadD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\DownLoadD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\DownLoadD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\下载组件\DownLoad.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.11

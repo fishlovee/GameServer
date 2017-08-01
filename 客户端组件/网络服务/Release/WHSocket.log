@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/6/10 11:10:53。
+     1>项目“G:\code\棋牌游戏\majiang-master\客户端组件\网络服务\WHSocket.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Yc"stdafx.h" /Fp"Release\WHSocket.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkService.cpp TCPSocket.cpp
+         NetworkService.cpp
+         TCPSocket.cpp
+     1>TCPSocket.cpp(181): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>TCPSocket.cpp(210): warning C4244: “return”: 从“DWORD”转换到“WORD”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WHSocket.res" WHSocket.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/WHSocket.dll" /INCREMENTAL:NO /NOLOGO Ws2_32.lib comsupp.lib /DEF:".\WHSocket.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/WHSocket.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../运行/Release/Ansi/WHSocket.lib" /MACHINE:X86 /SAFESEH /DLL Release\WHSocket.res
+         Release\NetworkService.obj
+         Release\Stdafx.obj
+         Release\TCPSocket.obj
+            正在创建库 ../../../运行/Release/Ansi/WHSocket.lib 和对象 ../../../运行/Release/Ansi/WHSocket.exp
+     1>WHSocket.exp : warning LNK4070: .EXP 中的 /OUT:NetworkService.dll 指令与输出文件名“../../../运行/Release/Ansi/WHSocket.dll”不同；忽略指令
+         WHSocket.vcxproj -> G:\code\棋牌游戏\majiang-master\客户端组件\网络服务\../../../运行/Release/Ansi/WHSocket.dll
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\客户端组件\网络服务\WHSocket.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.59

@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CardControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSiceWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSiceWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\消息定义\CMD_HNMJ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\麻将声音\男\A_chi.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\A_chi.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\A_chi_hu.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\A_chi_hu.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\A_gang.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\A_gang.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\A_peng.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\A_peng.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\F_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\F_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_end.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_lose.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_lost.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_start.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_warn.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Game_win.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\Out_card.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\S_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\S_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\T_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\T_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\Ting.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Ting.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\W_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\女\W_9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Res\麻将声音\男\Chi.wav" />
+    <Media Include="Res\麻将声音\女\Chi.wav" />
+    <Media Include="Res\麻将声音\男\Chi_hu.wav" />
+    <Media Include="Res\麻将声音\女\Chi_hu.wav" />
+    <Media Include="Res\麻将声音\DRAW_SICE.wav" />
+    <Media Include="Res\麻将声音\女\Gang.wav" />
+    <Media Include="Res\麻将声音\男\Gang.wav" />
+    <Media Include="Res\麻将声音\男\Peng.wav" />
+    <Media Include="Res\麻将声音\女\Peng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\ACTION_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\ACTION_EXPLAIN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CHIHU.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_GIVEUP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_LISTEN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SCORE_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_START.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_START_TRUSTEE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_STOP_TRUSTEE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_BACK_H.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_BACK_V.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_DOUBLE_H.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_DOUBLE_V.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_SINGLE_H.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_HEAP_SINGLE_V.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_BOTTOM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_TABLE_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_BOTTOM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CARD_USER_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CELL_SCORE.BMP">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_BOTTOM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_MID.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CONTROL_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FAN_PAI.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_SCORE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GAME_SCORE_FLAG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GameClient.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\HUANG_ZHUANG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\LISTEN_FLAG_H.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\LISTEN_FLAG_V.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\OUT_CARD_TIP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SELECT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE12.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SICE_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\TRUSTEE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_ACTION.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_FLAG.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\VIEW_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\View_center.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WAIT_TIP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WIN_LOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WIN_ORDER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\ZUAN_PAI.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\ACTIONANI.png" />
+    <Image Include="Res\ARROW.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_BV.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_LV.png" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_RV.PNG" />
+    <Image Include="Res\CARD_HEAP_DOUBLE_TV.PNG" />
+    <Image Include="Res\CARD_HEAP_SINGLE_BV.png" />
+    <Image Include="Res\CARD_HEAP_SINGLE_LV.png" />
+    <Image Include="Res\CARD_HEAP_SINGLE_RV.PNG" />
+    <Image Include="Res\CARD_HEAP_SINGLE_TV.png" />
+    <Image Include="Res\CARD_TABLE_BOTTOM.PNG" />
+    <Image Include="Res\CARD_TABLE_LEFT.png" />
+    <Image Include="Res\CARD_TABLE_RIGHT.png" />
+    <Image Include="Res\CARD_TABLE_TOP.png" />
+    <Image Include="Res\CARD_USER_BOTTOM.png" />
+    <Image Include="Res\CARD_USER_LEFT.png" />
+    <Image Include="Res\CARD_USER_RIGHT.png" />
+    <Image Include="Res\CARD_USER_TOP.png" />
+    <Image Include="Res\CELL_SCORE.PNG" />
+    <Image Include="Res\DISC.png" />
+    <Image Include="Res\GAME_LOST.PNG" />
+    <Image Include="Res\GAME_WIN.PNG" />
+    <Image Include="Res\GUA_FENG.PNG" />
+    <Image Include="Res\NUM_LOST.PNG" />
+    <Image Include="Res\NUM_ORDER.PNG" />
+    <Image Include="Res\NUM_WIN.PNG" />
+    <Image Include="Res\png1.png" />
+    <Image Include="Res\Trustee.png" />
+    <Image Include="Res\XIAO_YU.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CARD_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GameClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

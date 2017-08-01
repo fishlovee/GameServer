@@ -1,0 +1,140 @@
+﻿生成启动时间为 2017/6/10 11:11:00。
+     1>项目“G:\code\棋牌游戏\majiang-master\服务器组件\协调服务器\Correspond.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Correspond.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Correspond.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AttemperEngineSink.cpp CorrespondServer.cpp CorrespondServerDlg.cpp GlobalInfoManager.cpp InitParameter.cpp ServiceUnits.cpp
+         AttemperEngineSink.cpp
+     1>AttemperEngineSink.cpp(663): warning C4996: '_tcslwr': This function or variable may be unsafe. Consider using _tcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\tchar.h(1885) : 参见“_tcslwr”的声明
+         CorrespondServer.cpp
+         CorrespondServerDlg.cpp
+         GlobalInfoManager.cpp
+     1>GlobalInfoManager.cpp(310): warning C4996: '_tcslwr': This function or variable may be unsafe. Consider using _tcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\tchar.h(1885) : 参见“_tcslwr”的声明
+         InitParameter.cpp
+     1>InitParameter.cpp(46): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         ServiceUnits.cpp
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 g:\code\棋牌游戏\majiang-master\全局定义\Module.h(212): 编译类 模板 成员函数“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”时
+                 with
+                 [
+                     IModeluInterface=ITimerEngine
+                 ]
+                 ServiceUnits.cpp(85): 参见对正在编译的函数 模板 实例化“bool CTempldateHelper<IModeluInterface>::CreateInstance(void)”的引用
+                 with
+                 [
+                     IModeluInterface=ITimerEngine
+                 ]
+                 E:\Program Files\VS2012\VC\include\utility(26): 参见对正在编译的函数 模板 实例化“void std::swap<char>(_Ty &,_Ty &)”的引用
+                 with
+                 [
+                     _Ty=char
+                 ]
+                 E:\Program Files\VS2012\VC\include\xutility(3414): 参见对正在编译的函数 模板 实例化“void std::iter_swap<_RanIt,_RanIt>(_FwdIt1,_FwdIt2)”的引用
+                 with
+                 [
+                     _RanIt=char *,
+                     _FwdIt1=char *,
+                     _FwdIt2=char *
+                 ]
+                 E:\Program Files\VS2012\VC\include\xutility(3428): 参见对正在编译的函数 模板 实例化“void std::_Rotate<_RanIt,std::iterator_traits<_Iter>::difference_type,char>(_RanIt,_RanIt,_RanIt,_Diff *,_Ty *)”的引用
+                 with
+                 [
+                     _RanIt=char *,
+                     _Iter=char *,
+                     _Diff=std::iterator_traits<char *>::difference_type,
+                     _Ty=char
+                 ]
+                 E:\Program Files\VS2012\VC\include\xutility(3438): 参见对正在编译的函数 模板 实例化“void std::_Rotate<_Iter>(_RanIt,_RanIt,_RanIt,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     _Iter=char *,
+                     _RanIt=char *
+                 ]
+                 E:\Program Files\VS2012\VC\include\vector(1348): 参见对正在编译的函数 模板 实例化“_FwdIt std::rotate<char*>(_FwdIt,_FwdIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=char *
+                 ]
+                 E:\Program Files\VS2012\VC\include\vector(1261): 参见对正在编译的函数 模板 实例化“void std::vector<_Ty>::_Insert<_Iter>(std::_Vector_const_iterator<_Myvec>,_Iter,_Iter,std::forward_iterator_tag)”的引用
+                 with
+                 [
+                     _Ty=char,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>
+                 ]
+                 E:\Program Files\VS2012\VC\include\vector(1261): 参见对正在编译的函数 模板 实例化“void std::vector<_Ty>::_Insert<_Iter>(std::_Vector_const_iterator<_Myvec>,_Iter,_Iter,std::forward_iterator_tag)”的引用
+                 with
+                 [
+                     _Ty=char,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>
+                 ]
+                 E:\Program Files\VS2012\VC\include\vector(1236): 参见对正在编译的函数 模板 实例化“std::_Vector_iterator<_Myvec> std::vector<_Ty>::insert<_Iter>(std::_Vector_const_iterator<_Myvec>,_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     _Ty=char,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+                 E:\Program Files\VS2012\VC\include\vector(1236): 参见对正在编译的函数 模板 实例化“std::_Vector_iterator<_Myvec> std::vector<_Ty>::insert<_Iter>(std::_Vector_const_iterator<_Myvec>,_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     _Ty=char,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+                 g:\code\棋牌游戏\majiang-master\全局定义\datastream.h(97): 参见对正在编译的函数 模板 实例化“void std::vector<_Ty>::assign<std::_Vector_iterator<_Myvec>>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Ty=char,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+                 g:\code\棋牌游戏\majiang-master\全局定义\datastream.h(97): 参见对正在编译的函数 模板 实例化“void std::vector<_Ty>::assign<std::_Vector_iterator<_Myvec>>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Ty=char,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(235): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(249): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>g:\code\棋牌游戏\majiang-master\全局定义\Module.h(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Correspond.res" Correspond.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/Correspond.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/Correspond.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../运行/Release/Ansi/Correspond.lib" /MACHINE:X86 /SAFESEH Release\Correspond.res
+         Release\AttemperEngineSink.obj
+         Release\CorrespondServer.obj
+         Release\CorrespondServerDlg.obj
+         Release\GlobalInfoManager.obj
+         Release\InitParameter.obj
+         Release\ServiceUnits.obj
+         Release\Stdafx.obj
+         "G:\code\棋牌游戏\majiang-master\链接库\Ansi\ServiceCore.lib"
+     1>LINK : fatal error LNK1104: 无法打开文件“../../链接库/Ansi/KernelEngine.lib”
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\服务器组件\协调服务器\Correspond.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.88

@@ -1,0 +1,59 @@
+﻿生成启动时间为 2016/7/5 20:52:02。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\游戏框架\GameFrame.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D GAME_FRAME_DLL /D PLAYCHATSHORTSOUND /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_Unicode\游戏框架.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D GAME_FRAME_DLL /D PLAYCHATSHORTSOUND /D _UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_Unicode\游戏框架.pch" /Fo"Release_Unicode\\" /Fd"Release_Unicode\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ClientKernel.cpp Other\Custsite.cpp DlgGameOption.cpp DlgGameRule.cpp DlgInsureGame.cpp DlgMatchAwards.cpp GameFrameApp.cpp GameFrameAvatar.cpp GameFrameControl.cpp GameFrameDll.cpp GameFrameEngine.cpp GameFrameMedalView.cpp GameFramePublicize.cpp GameFrameService.cpp GameFrameUserView.cpp GameFrameView.cpp GameFrameViewD3D.cpp GameFrameViewGDI.cpp GameFrameWnd.cpp GameOptionItem.cpp GlobalUnits.cpp Other\IDispimp.cpp TimerPulseEngine.cpp
+         ClientKernel.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         Custsite.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         DlgGameOption.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         DlgGameRule.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         DlgInsureGame.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         DlgMatchAwards.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameApp.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameAvatar.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameControl.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameDll.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameEngine.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameMedalView.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFramePublicize.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameService.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameUserView.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameView.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameViewD3D.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameViewGDI.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameFrameWnd.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         GameOptionItem.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         GlobalUnits.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         IDispimp.cpp
+         TimerPulseEngine.cpp
+     1>d:\闲来服务器\系统模块\客户端组件\游戏框架\..\..\客户端组件\游戏引擎\GameEngineHead.h(16): fatal error C1083: 无法打开包括文件:“D3Dx9.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\游戏框架\GameFrame.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:27.98

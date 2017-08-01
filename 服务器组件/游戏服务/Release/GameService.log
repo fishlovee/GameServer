@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/6/10 15:50:22。
+     1>项目“G:\code\棋牌游戏\majiang-master\服务器组件\游戏服务\GameService.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/GameService.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\GameService.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/GameService.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/GameService.lib" /MACHINE:X86 /SAFESEH /DLL Release\GameService.res
+         Release\AndroidUserItem.obj
+         Release\AndroidUserManager.obj
+         Release\GamePropertyManager.obj
+         Release\GameService.obj
+         Release\ServerUserManager.obj
+         Release\Stdafx.obj
+         "G:\code\棋牌游戏\majiang-master\链接库\Ansi\ServiceCore.lib"
+            正在创建库 ../../链接库/Ansi/GameService.lib 和对象 ../../链接库/Ansi/GameService.exp
+         GameService.vcxproj -> G:\code\棋牌游戏\majiang-master\服务器组件\游戏服务\../../../运行/Release/Ansi/GameService.dll
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\服务器组件\游戏服务\GameService.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86

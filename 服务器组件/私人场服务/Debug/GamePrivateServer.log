@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/7/5 20:52:54。
+     1>项目“D:\闲来服务器\系统模块\服务器组件\私人场服务\GamePrivateServer.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D PRIVATE_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\PrivateServiceD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D PRIVATE_SERVICE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PrivateServiceD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FangKaHttpUnits.cpp GamePrivateServer.cpp PrivateGame.cpp PrivateServiceManager.cpp PrivateTableInfo.cpp CTableFramePrivate.cpp
+         CTableFramePrivate.cpp
+         PrivateTableInfo.cpp
+         PrivateServiceManager.cpp
+         PrivateGame.cpp
+         GamePrivateServer.cpp
+         FangKaHttpUnits.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\GamePrivateServer.res" GamePrivateServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/PrivateServiceD.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/PrivateServiceD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/MatchServiceD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\GamePrivateServer.res
+         Debug\FangKaHttpUnits.obj
+         Debug\GamePrivateServer.obj
+         Debug\PrivateGame.obj
+         Debug\PrivateServiceManager.obj
+         Debug\PrivateTableInfo.obj
+         Debug\Stdafx.obj
+         Debug\CTableFramePrivate.obj
+     1>FangKaHttpUnits.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Ansi/MatchServiceD.lib 和对象 ../../链接库/Ansi/MatchServiceD.exp
+         GamePrivateServer.vcxproj -> D:\闲来服务器\系统模块\服务器组件\私人场服务\../../../运行/Debug/Ansi/PrivateServiceD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\服务器组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\PrivateServiceD.dll ..\..\..\发布组件\服务器组件\Debug\Ansi\PrivateServiceD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\服务器组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\服务器组件\私人场服务\GamePrivateServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.18

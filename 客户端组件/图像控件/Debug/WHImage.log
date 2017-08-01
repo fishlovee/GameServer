@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/7/5 20:53:17。
+     1>项目“D:\闲来服务器\系统模块\客户端组件\图像控件\WHImage.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D WH_IMAGE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\WHImageD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D WH_IMAGE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WHImageD.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BitImage.cpp BitImageEx.cpp D2DEngine.cpp DFontEx.cpp GIFImage.cpp PngImage.cpp PngImageEx.cpp WHImage.cpp
+         WHImage.cpp
+         PngImageEx.cpp
+         PngImage.cpp
+         GIFImage.cpp
+         DFontEx.cpp
+         D2DEngine.cpp
+         BitImageEx.cpp
+         BitImage.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\WHImage.res" WHImage.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Debug/Ansi/WHImageD.dll" /INCREMENTAL /NOLOGO /DEF:".\WHImageD.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Debug/Ansi/WHImageD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/WHImageD.lib" /MACHINE:X86 /SAFESEH /DLL Debug\WHImage.res
+         Debug\BitImage.obj
+         Debug\BitImageEx.obj
+         Debug\D2DEngine.obj
+         Debug\DFontEx.obj
+         Debug\GIFImage.obj
+         Debug\PngImage.obj
+         Debug\PngImageEx.obj
+         Debug\Stdafx.obj
+         Debug\WHImage.obj
+         "D:\闲来服务器\系统模块\链接库\Ansi\ServiceCoreD.lib"
+     1>BitImage.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ../../链接库/Ansi/WHImageD.lib 和对象 ../../链接库/Ansi/WHImageD.exp
+         WHImage.vcxproj -> D:\闲来服务器\系统模块\客户端组件\图像控件\../../../运行/Debug/Ansi/WHImageD.dll
+       PostBuildEvent:
+         mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+         copy /y ..\..\..\运行\Debug\Ansi\WHImageD.dll ..\..\..\发布组件\客户端组件\Debug\Ansi\WHImageD.dll
+         
+         :VCEnd
+         子目录或文件 ..\..\..\发布组件\客户端组件\Debug\Ansi 已经存在。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\闲来服务器\系统模块\客户端组件\图像控件\WHImage.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.80

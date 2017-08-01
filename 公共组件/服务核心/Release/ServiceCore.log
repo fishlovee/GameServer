@@ -1,0 +1,49 @@
+﻿生成启动时间为 2017/6/10 11:10:53。
+     1>项目“G:\code\棋牌游戏\majiang-master\公共组件\服务核心\ServiceCore.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ServiceCore.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         E:\Program Files\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D SERVICE_CORE_DLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ServiceCore.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ServiceCore.cpp WHCommandLine.cpp WHDataLocker.cpp WHDataQueue.cpp WHEncrypt.cpp WHIniData.cpp WHRegKey.cpp WHService.cpp WHThread.cpp
+         ServiceCore.cpp
+         WHCommandLine.cpp
+         WHDataLocker.cpp
+         WHDataQueue.cpp
+         WHEncrypt.cpp
+     1>WHEncrypt.cpp(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>WHEncrypt.cpp(389): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 E:\Program Files\VS2012\VC\include\swprintf.inl(85) : 参见“swprintf”的声明
+         WHIniData.cpp
+         WHRegKey.cpp
+     1>WHRegKey.cpp(94): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>WHRegKey.cpp(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         WHService.cpp
+     1>WHService.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>WHService.cpp(183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\VS2012\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         WHThread.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\ServiceCore.res" ServiceCore.rc 
+       Link:
+         E:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../运行/Release/Ansi/ServiceCore.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ServiceCore.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\VS2012\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"../../../运行/Release/Ansi/ServiceCore.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../链接库/Ansi/ServiceCore.lib" /MACHINE:X86 /SAFESEH /DLL Release\ServiceCore.res
+         Release\ServiceCore.obj
+         Release\Stdafx.obj
+         Release\WHCommandLine.obj
+         Release\WHDataLocker.obj
+         Release\WHDataQueue.obj
+         Release\WHEncrypt.obj
+         Release\WHIniData.obj
+         Release\WHRegKey.obj
+         Release\WHService.obj
+         Release\WHThread.obj
+            正在创建库 ../../链接库/Ansi/ServiceCore.lib 和对象 ../../链接库/Ansi/ServiceCore.exp
+         ServiceCore.vcxproj -> G:\code\棋牌游戏\majiang-master\公共组件\服务核心\../../../运行/Release/Ansi/ServiceCore.dll
+     1>已完成生成项目“G:\code\棋牌游戏\majiang-master\公共组件\服务核心\ServiceCore.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.39
